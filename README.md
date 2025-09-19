@@ -13,22 +13,33 @@ By the end of this guide, you will:
 ## 📋 Prerequisites
 
 ### Required Knowledge
-- Basic understanding of HTTP protocols
-- Familiarity with JSON data format
-- Basic command line usage on macOS
+- **Complete beginner friendly** - no prior API testing experience needed
+- **Basic computer skills** - comfortable using applications and web browsers
+- **Willingness to learn** - command line basics and technical concepts
 
 ### System Requirements
 - **macOS Intel** (as specified)
 - **Node.js v16+** (for Newman CLI)
 - **Homebrew** (for easy installation)
 
-### RESTful API Fundamentals
-- **REST** = REpresentational State Transfer
-- **HTTP Methods**: GET (read), POST (create), PUT (update), DELETE (remove)
-- **Status Codes**: 200 (OK), 201 (Created), 404 (Not Found), 500 (Server Error)
-- **JSON Structure**: Key-value pairs, arrays, nested objects
+### ⚠️ New to APIs, HTTP, or Command Line?
+**Start here first:** [**Lesson 0: Prerequisites - Understanding the Fundamentals**](docs/lesson-00-prerequisites.md)
+
+This comprehensive lesson covers:
+- **What are APIs** and why they matter for database testers
+- **HTTP protocol fundamentals** - requests, responses, status codes
+- **REST architecture** explained with real-world examples
+- **JSON data format** structure and syntax
+- **Command Line Interface (CLI)** basics for automation
+- **Complete status code reference** with practical examples
+- **What to expect** in API calls and responses
 
 ## 🗂️ Course Structure
+
+### [Lesson 0: Prerequisites - Understanding the Fundamentals](docs/lesson-00-prerequisites.md)
+- Complete beginner's guide to APIs, HTTP, REST, and CLI
+- Essential theory before hands-on practice
+- Database tester perspective on API testing
 
 ### [Lesson 1: Postman Installation and Setup](docs/lesson-01-installation.md)
 - Install Postman on macOS Intel
@@ -175,25 +186,25 @@ pm.test("Response time is acceptable", function () {
 
 ## 🎓 Learning Path Recommendations
 
-### Beginner (Week 1)
-- Complete Lessons 1-3
-- Practice basic GET/POST requests
-- Understand response structure
+### Complete Beginner (Week 1)
+- **Start with Lesson 0** - Understand APIs, HTTP, REST, CLI fundamentals
+- Complete Lessons 1-2 - Install Postman, learn RESTful concepts
+- Practice basic GET requests and response analysis
 
-### Intermediate (Week 2)
-- Complete Lessons 4-5
+### Beginner (Week 2)
+- Complete Lessons 3-4 - First API requests and test assertions
+- Practice POST/PUT/DELETE requests
+- Understand response structure and status codes
+
+### Intermediate (Week 3)
+- Complete Lessons 5-6 - Collections and Newman CLI
 - Write comprehensive test assertions
-- Organize collections with folders
+- Organize collections with folders and environments
 
-### Advanced (Week 3)
-- Complete Lessons 6-7
+### Advanced (Week 4)
+- Complete Lesson 7 - HTML reports and automation
 - Master Newman CLI automation
-- Generate and analyze HTML reports
-
-### Expert (Week 4)
-- Customize collections for your APIs
-- Integrate with CI/CD pipelines
-- Create advanced test scenarios
+- Create advanced test scenarios and CI/CD integration
 
 ## 🔧 Troubleshooting
 
